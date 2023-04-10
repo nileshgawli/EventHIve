@@ -747,6 +747,34 @@ video {
   height: 20rem;
 }
 
+.h-\[90vh\] {
+  height: 90vh;
+}
+
+.h-\[vh\] {
+  height: vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[7vh\] {
+  height: 7vh;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
+}
+
+.h-\[7\=vh\] {
+  height: 7=vh;
+}
+
+.h-\[65vh\] {
+  height: 65vh;
+}
+
 .w-1\/5 {
   width: 20%;
 }
