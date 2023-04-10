@@ -691,6 +691,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -739,6 +743,10 @@ video {
   height: 100vh;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-1\/5 {
   width: 20%;
 }
@@ -761,6 +769,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .-translate-x-56 {
@@ -790,6 +810,16 @@ video {
 
 .translate-y-0\.5 {
   --tw-translate-y: 0.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-64 {
+  --tw-translate-x: -16rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-8 {
+  --tw-translate-x: 2rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1016,6 +1046,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1026,6 +1061,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-sans {
+  font-family: Kanit, sans-serif;
 }
 
 .text-2xl {
@@ -1056,6 +1095,26 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1255,6 +1314,10 @@ video {
     width: 50%;
   }
 
+  .md\:w-1 {
+    width: 0.25rem;
+  }
+
   .md\:p-20 {
     padding: 5rem;
   }
@@ -1268,6 +1331,11 @@ video {
 @media (min-width: 1024px) {
   .lg\:m-0 {
     margin: 0px;
+  }
+
+  .lg\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .lg\:mr-4 {
@@ -1284,6 +1352,18 @@ video {
 
   .lg\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .lg\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:flex {

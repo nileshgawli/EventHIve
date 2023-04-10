@@ -19,7 +19,7 @@
     <title>HOME</title>
   </head>
   <body>
-    <div class="h-screen bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
+    <div class="h-screen bg-dark bg-no-repeat bg-cover bg-center bg-fixed">
       <!-- Nav Container -->
       <nav class="container mx-auto p-6">
         <!-- Flex Container for All Items -->
@@ -129,15 +129,9 @@
         </div>
       </nav>
 
-      <div class="mx-16 flex flex-col justify-center items-start">
-        <div id="date" class="text-lightGray uppercase mt-28 lg:mt-20">
-          24 MARCH, 2023
-        </div>
-        <h1
-          class="text-3xl md:text-5xl lg:text-8xl text-light font-extrabold mt-10 lg:mt-8 leading-2"
-        >
-          EVENT REGISTRATION SYSTEM <br />FOR COLLEGE
-        </h1>
+      <!-- event details -->
+      <div class="w-screen  flex justify-center flex-col items-center text-primary text-sm lg:text-base text-white font-sans tracking-widest leading-4 mt-5 lg:mt-10">
+        <div id="name" class="text-4xl">Hackformers</div>
         <p
           class="text-sm lg:text-base md:w-1/2 lg:w-1/3 text-lightGray tracking-widest leading-4 mt-10 lg:mt-28"
         >
@@ -146,133 +140,27 @@
           events. Our event registration system helps you simplify event
           planning.
         </p>
-      </div>
-    </div>
-    <div class="h-screen bg-light">
-      <!-- Heading -->
-
-      <div class="w-full flex flex-col items-center">
-        <h1 class="text-6xl text-dark font-bold mt-16 text-center">
-          Agenda For Upcoming Events
-        </h1>
-        <p
-          class="text-sm lg:text-base text-lightGray tracking-widest leading-4 mt-3"
-        >
-          Every week there will be an interesting event for you to follow
-        </p>
-
-        <!-- Filters -->
-        <div class="w-full flex mt-8">
-          <div class="w-full flex justify-evenly">
-            <button
-              class="toggle-filter w-1/5 py-2 border-2 border-zinc-400 rounded"
+        <a
+              href="login.html"
+              class="relative inline-flex items-center justify-start inline-block px-12 py-3 overflow-hidden font-bold rounded-full group mt-8"
             >
-              Upcoming
-            </button>
-            <button
-              class="toggle-filter w-1/5 py-2 border-2 border-zinc-400 rounded"
-            >
-              Past
-            </button>
-            <button
-              id="free"
-              class="toggle-filter w-1/5 py-2 border-2 border-zinc-400 rounded"
-            >
-              Free
-            </button>
-            <button
-              class="toggle-filter w-1/5 py-2 border-2 border-zinc-400 rounded"
-            >
-              Paid
-            </button>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Event Box -->
-      <div class="mt-6 p-2 bg-light m-4 lg:flex">
-        <!-- EVENTS -->
-          <div
-          id="hackformers"
-          class="my-4 lg:m-0 lg:mr-4 flex items-end justify-between rounded-3xl w-full h-[72vh] bg-[url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')] bg-no-repeat bg-cover bg-center"
-          >
-          <div class="ml-6 mb-16">
-            <div
-            id="event-name"
-            class="text-light text-lg tracking-widest leading-4"
-            >
-            Hackformers Hackathon
-          </div>
-          <div
-          id="organizer"
-          class="text-lightGray tracking-widest leading-4 text-xs mt-2"
-          >
-          by Avalon
-        </div>
-      </div>
-
-      <div class="m-6 text-light rotate-45">
-        <a href="event.html">
-          <img class="h-12" src="Images/arrow.png" alt="" />
-        </a>
-      </div>
-    </div>
-    <!-- First End -->
-    <!-- EVENTS -->
-        <div
-          class="my-2 lg:m-0 lg:mr-4 flex items-end justify-between rounded-3xl w-full h-[72vh] bg-[url('https://images.unsplash.com/photo-1630395822970-acd6a691d97e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')] bg-no-repeat bg-cover bg-center"
-        >
-          <div class="ml-6 mb-16">
-            <div
-              id="event-name"
-              class="text-light text-lg tracking-widest leading-4"
-            >
-              Terna Fest
-            </div>
-            <div
-              id="organizer"
-              class="text-lightGray tracking-widest leading-4 text-xs mt-2"
-            >
-              by Revive
-            </div>
-          </div>
-
-          <div class="m-6 text-light rotate-45">
-            <a href="event.html">
-              <img class="h-12" src="Images/arrow.png" alt="" />
+              <span
+                class="w-40 h-32 rotate-45 translate-x-8 -translate-y-2 absolute left-0 top-0 bg-secondry opacity-[3%]"
+              ></span>
+              <span
+                class="absolute top-0 left-0 w-56 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-64 -translate-y-24 bg-secondary opacity-100 group-hover:-translate-x-8"
+              ></span>
+              <span
+                class="relative w-full text-left text-white font-semibold tracking-wider transition-colors duration-200 ease-in-out group-hover:text-gray-900"
+                >Register Now</span
+              >
+              <span
+                class="absolute inset-0 border-2 border-secondary rounded-full"
+              ></span>
             </a>
-          </div>
-        </div>
-        <!-- First End -->
-        <!-- EVENTS -->
-        <div
-          class="my-2 lg:m-0 flex items-end justify-between rounded-3xl w-full h-[72vh] bg-[url('https://images.unsplash.com/photo-1593766832792-804353f52dbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80')] bg-no-repeat bg-cover bg-center"
-        >
-          <div class="ml-6 mb-16">
-            <div
-              id="event-name"
-              class="text-light text-lg tracking-widest leading-4"
-            >
-              Sportec
-            </div>
-            <div
-              id="organizer"
-              class="text-lightGray tracking-widest leading-4 text-xs mt-2"
-            >
-              by Terna
-            </div>
-          </div>
-
-          <div class="m-6 text-light rotate-45">
-            <a href="event.html">
-              <img class="h-12" src="Images/arrow.png" alt="" />
-            </a>
-          </div>
-        </div>
-        <!-- First End -->
       </div>
-    </div>
+
+
 
     <!-- jQuery CDN -->
     <script

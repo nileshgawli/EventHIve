@@ -18,4 +18,7 @@ function toggleFilter() {
 $(document).ready(function () {
   hamburger();
   toggleFilter();
+  $('#free').click(function(){
+    $('#hackformers').toggleClass("hidden");
+  })
 });
